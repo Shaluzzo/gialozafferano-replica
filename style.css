@@ -1,0 +1,189 @@
+.head {
+  width: 100%;
+  height: 50px;
+  background: #fafaf6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainhead {
+  position: relative;
+  max-width: 1000px;
+  height: 100%;
+  margin: auto;
+}
+
+.logo {
+  width: 30%;
+}
+
+.logo img {
+  width: 60%;
+  cursor: pointer;
+}
+
+.contact {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.searchbar {
+    position: absolute;
+    top: 8px;
+    right: 200px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+.searchbar input {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 36px;
+    color: #54437e;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
+
+.iconsearch {
+  position: absolute;
+  right: 210px;
+  top: 10px;
+  font-size: 23px;
+  color: orange;
+}
+
+.social {
+  position: absolute;
+  right: 50px;
+  top: 12px;
+  border-left: 1px solid black;
+  border-right: 1px solid lightgrey;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.user {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 22px;
+  color: violet;
+}
+
+.bg_menu {
+  width: 100%;
+  height: 40px;
+  background: #7b6aa3;
+}
+
+.menu {
+  margin: auto;
+  max-width: 1000px;
+  height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+   float: left;
+   display: block;
+   color: white;
+   text-align: left;
+   line-height: 40px;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 15px;
+   cursor: pointer;
+   padding-left: 18px;
+}
+
+ul li > button {
+    margin-left: 10px;
+    width: 100px;
+    height: auto;
+    font: bold 14px/28px 'lato';
+    color: #FFF;
+    background: #ff9713;
+    border-radius: 2px;
+    border: 1px;
+}
+
+.submenu {
+  max-width: 1000px;
+  height: 40px;
+  margin: auto;
+  background: #FFF;
+  text-align: left;
+}
+
+.submenu li {
+  float: left;
+  display: block;
+  line-height: 40px;
+  color: #4b4164;
+  font-size: 14px;
+  padding-left: 27px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submenu li i {
+  width: 20px;
+  color: orange;
+  padding-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.recipes {
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+}
+
+.imgleft img {
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+
+.description {
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  color: black;
+}
+
+.text {
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  color: black;
+}
+
+.imgright img {
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+
+}
