@@ -159,31 +159,91 @@ ul li > button {
   margin: auto;
 }
 
-.imgleft img {
+.imgleft {
   float: left;
+width: 50%;
+height: 100%;
+}
+
+.imgright {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.photo {
+  position: relative;
+}
+
+.photo img {
   width: 500px;
   height: 300px;
-  margin: auto;
 }
 
 .description {
   position: absolute;
   bottom: 0px;
-  left: 100px;
-  color: black;
+  left: 10px;
 }
 
-.text {
-  position: absolute;
-  bottom: 0px;
-  left: 50px;
-  color: black;
+.description h3 {
+  font-family: 'Cookie';
+  font-size: 30px;
+  color: #f8ddb8;
+  padding-top: 100px;
+  margin-bottom: -15px;
 }
 
-.imgright img {
-  float: left;
-  width: 500px;
-  height: 300px;
+.description h1 {
+  font: bold 26px/30px 'Roboto Slab';
+  color: #FFF;
+}
+
+.main_container {
+  max-width: 100vw;
+  height: 100vh;
+  background: red;
+  background: #f6f2f9;
+}
+
+.wrapper {
+  max-width: 1000px;
+  height: 1000px;
   margin: auto;
+  background: #FFF;
+}
+
+.ricette {
+  margin: 0px 30px 15px;
+  font: 30px/34px 'Cookie';
+  color: #a295b5;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.chef_img {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+  padding: 0 60px;
+}
+
+.chef {
+  text-align: center;
+}
+
+.chef img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.chef p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 26px;
+  color: #6b5699;
+  font-weight: bold;
 
 }
